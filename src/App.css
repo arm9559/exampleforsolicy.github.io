@@ -1,0 +1,36 @@
+/* DOCUMENT GLOBAL STYLES */
+
+*{margin:0;padding:0;box-sizing: border-box;}
+.navbar{border-bottom:1px solid black;}
+main{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+main > div{
+  display: flex !important;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 10px !important;
+  overflow: auto;
+  height: 94.5vh;
+}
+main > div > div{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  font-size: 65px;
+  width:450px;
+  height: 200px;
+}
+.main-first-child{
+  width:75% !important;
+}
+.main-second-child{
+  width:25% !important;
+  height: 94.9vh;
+  border:1px solid black;
+}
+.main-second-child > span{
+  width:94%;
+}
